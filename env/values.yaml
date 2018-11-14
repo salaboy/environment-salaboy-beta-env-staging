@@ -56,7 +56,7 @@ activiti-cloud:
       enabled: true
       resources:
         limits:
-          cpu: 1500m
+          cpu: 1000m
           memory: 2048Mi
         requests:
           cpu: 1000m
@@ -65,7 +65,7 @@ activiti-cloud:
       enabled: true  
       resources:
         limits:
-          cpu: 1500m
+          cpu: 1000m
           memory: 2048Mi
         requests:
           cpu: 1000m
@@ -73,7 +73,7 @@ activiti-cloud:
     activiti-cloud-query:
       resources:
         limits:
-          cpu: 1500m
+          cpu: 1000m
           memory: 2048Mi
         requests:
           cpu: 1000m
@@ -81,7 +81,7 @@ activiti-cloud:
     activiti-cloud-audit:
       resources:
         limits:
-          cpu: 1500m
+          cpu: 1000m
           memory: 2048Mi
         requests:
           cpu: 1000m
