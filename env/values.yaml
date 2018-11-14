@@ -53,6 +53,10 @@ activiti-cloud:
 
   application:
     runtime-bundle:
+      image:
+        repository: salaboy/example-runtime-bundle
+        tag: acc-tests
+        pullPolicy: Always
       enabled: true
       resources:
         limits:
